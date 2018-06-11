@@ -243,7 +243,7 @@ class Parameters(object):
 
     def get_grad(self, key):
         """
-        Get grandient by parameter name.
+        Get gradient by parameter name.
 
         :note: It will always copy the parameter from C++ side.
         :param key: parameter name
